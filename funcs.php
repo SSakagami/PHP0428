@@ -9,7 +9,6 @@ function h($str)
 //DB接続関数：db_conn()・・・自分で名前決めて問題ない 
 //※関数を作成し、内容をreturnさせる。
 //※ DBname等、今回の授業に合わせる。
-  // $pdo = new PDO('mysql:dbname=gamio5_gs_db;charset=utf8;host=mysql57.gamio5.sakura.ne.jp','gamio5','sS_3104_Ss');
 
 
 //DB接続
