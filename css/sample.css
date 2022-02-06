@@ -1,0 +1,250 @@
+/* font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Yuji Syuku', serif; */
+
+
+/* 
+.headerback {
+  background-image: url(../imgs/header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 20vh;
+  width: 100%;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.headerfont{
+  color: red;
+  font-size: 60px;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 4px 3px 0px rgba(102,0,0,10), 
+               9px 8px 0px rgba(0,0,0,0.15);
+  /* transform: rotate(-7.5deg); */
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #92cb97;
+  padding: 50px;
+}
+
+.center1{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #92cb97;
+}
+
+.center_write{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #92cb97;
+  padding: 50px;
+  height: 80vh;
+}
+
+.write1{
+  font-size: 50px;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.center_read{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #92cb97;
+  padding: 10px;
+}
+
+.read1{
+  font-size: 40px;
+  font-family: 'Shippori Antique', sans-serif;
+}
+.read2{
+  font-size: 30px;
+  font-family: 'Shippori Antique', sans-serif;
+  padding-bottom: 20px;
+}
+
+.imgzone{
+  padding: 0px;
+  margin: 0px;
+  width: 250px;
+}
+.parts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.parts1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.box{
+  width:300px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.buttonbox{
+  /* width:150px; */
+  height:50px;
+  font-size: 20px;
+}
+
+
+/* .textzone{
+height: 100px;
+width: 300px;
+  box-shadow: 3px 3px 3px 3px #555;
+} */
+
+.tableborder{
+  /* border: solid grey 1px; */
+  border-collapse: collapse; 
+  padding: 5px;
+  font-family: 'Shippori Antique', sans-serif;
+}
+.tableborder1{
+  border-top: solid grey 1px;
+  border-bottom: solid grey 1px;
+  border-right: solid grey 1px;
+  border-collapse: collapse; 
+  padding: 5px;
+  font-family: 'Shippori Antique', sans-serif;
+  /* width: 120px; */
+  text-align: right;
+  height:20px
+}
+.tableborder2{
+  border-top: solid grey 1px;
+  border-bottom: solid grey 1px;
+  border-collapse: collapse; 
+  padding: 5px;
+  font-family: 'Shippori Antique', sans-serif;
+  /* width: 120px; */
+}
+
+.tableborder3{
+  border: solid grey 1px;
+  /* border-bottom: solid grey 1px; */
+  border-collapse: collapse; 
+  padding: 5px;
+  font-family: 'Shippori Antique', sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* width: 120px; */
+}
+
+.evalstar{
+  width: 120px;
+}
+
+/* .tablearea{
+  border-collapse: collapse; 
+  margin: 8px;
+}
+
+.tablearea1{
+  border-collapse: collapse; 
+  margin: 8px;
+  table-layout: fixed;
+  width: 800px;
+} */
+
+.btn1 {
+  color: #fff;
+  font-family: 'Yuji Syuku', serif; 
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  margin-left: 8px;
+}
+.btn1:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+
+.btn2 {
+  color: white;
+  font-family: 'Yuji Syuku', serif; 
+  background-color: #660000;
+  border-bottom: 5px solid #2c0101;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  margin: 10px;
+  margin-left: 8px;
+}
+.btn2:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #660000;
+  border-bottom: 2px solid #660000;
+  margin: 10px;
+}
+
+.footerarea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+ul {
+  padding: 0;
+  border-top: 1px solid #000000;
+  display: table;
+  /* 定義 */
+  table-layout: fixed;
+  width: 100%;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: #FFF;
+  display: table-cell;
+  /* 定義 */
+  cursor: pointer;
+}
+
+li:hover {
+  background: #0066CC;
+  color: #fff;
+}
+
+#target {
+  width: 800px;
+  height: 400px;
+}
+
